@@ -1,0 +1,5 @@
+﻿@{
+    var bebidasFiltradas = ViewData["BebidasFiltradas"] as IEnumerable<BarApp.Models.Bebida>;
+}
+
+@Html.Partial("_BebidasPartial", bebidasFiltradas)

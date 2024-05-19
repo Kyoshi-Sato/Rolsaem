@@ -1,0 +1,49 @@
+/* _content/N1 Rosalem/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-voi8o3ty5w] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-voi8o3ty5w] {
+  color: #0077cc;
+}
+
+.btn-primary[b-voi8o3ty5w] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-voi8o3ty5w], .nav-pills .show > .nav-link[b-voi8o3ty5w] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-voi8o3ty5w] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-voi8o3ty5w] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-voi8o3ty5w] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-voi8o3ty5w] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-voi8o3ty5w] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

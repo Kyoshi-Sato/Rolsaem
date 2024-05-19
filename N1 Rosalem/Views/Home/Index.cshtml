@@ -1,0 +1,29 @@
+﻿@model IEnumerable<BarApp.Models.Bebida>
+
+@{
+    ViewData["Title"] = "Lista de Drinks";
+}
+
+<h1>Lista de Drinks</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Estoque</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var drink in Model)
+        {
+            <tr>
+                <td>@drink.Nome</td>
+                <td>@drink.Preco</td>
+                <td>@drink.Descricao</td>
+                <td>@drink.Estoque</td>
+            </tr>
+        }
+    </tbody>
+</table>

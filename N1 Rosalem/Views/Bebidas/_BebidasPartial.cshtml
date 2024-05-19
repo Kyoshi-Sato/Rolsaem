@@ -1,0 +1,68 @@
+﻿@model IEnumerable<BarApp.Models.Bebida>
+
+@{
+    ViewData["Title"] = "Bebidas";
+}
+
+<h1>Drinks</h1>
+
+<p>
+    <a href="@Url.Action("Criar")" controller="Bebidas">Create New</a>
+</p>
+
+<form asp-action="Index" method="get">
+    <p>
+        <input type="text" name="searchString" value="@ViewBag.CurrentFilter" placeholder="Search by name" />
+        <input type="submit" value="Filter" />
+    </p>
+    <p>
+        Sort by:
+        <a href="@Url.Action("Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })">Name</a> |
+        <a href="@Url.Action("Index", new { sortOrder = ViewBag.PriceSortParm, currentFilter = ViewBag.CurrentFilter })">Price</a>
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estoque)
+            </th>
+            <th>
+                Image
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preco)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Estoque)
+                </td>
+               
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.Id })">Edit</a> |
+                    <a href="@Url.Action("Details", new { id = item.Id })">Details</a> |
+                    <form asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn btn-link" style="padding:0;">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

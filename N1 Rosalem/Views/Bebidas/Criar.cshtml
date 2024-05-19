@@ -1,0 +1,69 @@
+﻿@model BarApp.Models.Bebida
+
+@{
+    ViewData["Title"] = "Criar Bebida";
+}
+
+<h1>Criar Bebida</h1>
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form id="criar" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Preco" class="control-label"></label>
+                <input asp-for="Preco" class="form-control" />
+                <span asp-validation-for="Preco" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Estoque" class="control-label"></label>
+                <input asp-for="Estoque" class="form-control" />
+                <span asp-validation-for="Estoque" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Descricao" class="control-label"></label>
+                <input asp-for="Descricao" class="form-control" />
+                <span asp-validation-for="Descricao" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <button type="button" id="createBebidaButton" class="btn btn-primary">Salvar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#createBebidaButton').click(function () {
+                var formData = $('#criar').serialize();
+                $.ajax({
+                    url: '@Url.Action("Criar", "Bebidas")', 
+                    type: 'POST',
+                    data: formData,
+                    success: function (result) {
+                        $('#BebidasPartial').html(result);
+                        $('#criar')[0].reset();
+                        alert('Bebida criada com sucesso!');
+                    },
+                    error: function (xhr, status, error) {
+                        alert('Ocorreu um erro ao criar a bebida: ' + error);
+                    }
+                });
+            });
+        });
+    </script>
+}
