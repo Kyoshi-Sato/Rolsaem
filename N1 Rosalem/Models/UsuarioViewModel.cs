@@ -6,6 +6,7 @@
         public string EstadoCivil { get; set; }
         public int Idade { get; set; }
         public string Senha { get; set; }   
+        public bool Admin { get; set; }
     }
 }
 

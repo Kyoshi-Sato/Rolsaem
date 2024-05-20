@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("N1 Rosalem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+574781da9b041931a6cead8121312158db687e6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c240a2bd9c2b44b63bfb2ec5491d4fd2f213f0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("N1 Rosalem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("N1 Rosalem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

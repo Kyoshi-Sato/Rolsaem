@@ -35,9 +35,10 @@ namespace N1_Rosalem.Controllers
                 if (user != null)
                 {
                     var claims = new List<Claim>
-                    {
-                        new Claim(ClaimTypes.Name, user.Nome)
-                    };
+            {
+                new Claim(ClaimTypes.Name, user.Nome),
+                new Claim("IsAdmin", user.Admin.ToString()) // Adiciona a claim de administrador
+            };
 
                     var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     var authProperties = new AuthenticationProperties { };
@@ -50,6 +51,7 @@ namespace N1_Rosalem.Controllers
             }
             return View(model);
         }
+
 
         // GET: Login/Register
         public IActionResult Register()

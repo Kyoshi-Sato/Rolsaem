@@ -2,6 +2,7 @@
 using BarApp.Models;
 using System.Linq;
 using BarApp.Data;
+using N1_Rosalem.Filters;
 
 namespace BarApp.Controllers
 {
@@ -50,6 +51,7 @@ namespace BarApp.Controllers
             return View();
         }
 
+        [AdminOnly]
 
         // GET: Bebidas/Create
         public IActionResult Criar()
@@ -58,6 +60,7 @@ namespace BarApp.Controllers
         }
 
         // POST: Bebidas/Create
+        [AdminOnly]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Criar([Bind("Nome,Preco,Estoque,Descricao")] Bebida bebida)
@@ -74,6 +77,8 @@ namespace BarApp.Controllers
         }
 
         // GET: Bebidas/Edit/5
+        [AdminOnly]
+
         public IActionResult Edit(int id)
         {
             var bebida = _context.Bebidas.Find(id);
@@ -87,6 +92,8 @@ namespace BarApp.Controllers
         // POST: Bebidas/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AdminOnly]
+
         public IActionResult Edit(int id, [Bind("Id,Nome,Preco,Estoque,Descricao")] Bebida bebida)
         {
             if (id != bebida.Id)
@@ -115,6 +122,8 @@ namespace BarApp.Controllers
         }
 
         // POST: Bebidas/Delete/5
+        [AdminOnly]
+
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
