@@ -1,12 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 /* Definições Gerais */
+
+html, body {
+    height: 100%;
+}
 body {
     background-color: #1a1a2e; /* Roxo escuro */
-    color: #e0e0eb; /* Cinza claro */
+    color: #ffffff; /* Cinza claro */
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    flex: 1;
 }
 
 /* Cabeçalhos */
@@ -33,6 +43,7 @@ h3 {
 
 /* Parágrafos */
 p {
+    color: #ffffff
     line-height: 1.6;
     margin: 0 0 15px;
     font-family: 'Roboto', sans-serif;
@@ -130,44 +141,17 @@ footer {
         color: #e0e0eb; /* Cinza claro */
     }
 /* Navbar */
-.navbar {
-    background-color: #252540; /* Roxo muito escuro */
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar .nav-link {
+    color: #ffffff; /* Define a cor branca */
+    text-decoration: none; /* Remove a sublinhado */
+}
+
+    .navbar .nav-link:hover {
+        color: #d1b3ff; /* Define a cor para quando o link é focado ou sobreposto */
+    }
+.navbar-light .navbar-nav .nav-link {
     color: #ffffff;
-    border-bottom: 1px solid #3d3d5c; /* Roxo mais claro */
 }
-
-    .navbar a {
-        color: #ffffff; /* Texto branco */
-        margin: 0 10px;
-    }
-
-        .navbar a:hover {
-            color: #d1b3ff; /* Roxo mais claro */
-        }
-
-.navbar-brand {
-    color: #ffffff; /* Texto branco */
-    font-size: 1.5em;
-    text-decoration: none;
-}
-
-    .navbar-brand:hover {
-        color: #d1b3ff; /* Roxo mais claro */
-    }
-
-
-
-.navbar-toggle {
-    border: none;
-    background-color: #3d3d5c; /* Botão de alternância roxo */
-    color: #ffffff; /* Ícones brancos */
-}
-
-
 /* Tabelas */
 table {
     font-family: 'Roboto', sans-serif;
