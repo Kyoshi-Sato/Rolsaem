@@ -1,0 +1,20 @@
+﻿@model BarApp.Models.Bebida
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalhes do Drink</h1>
+
+<div>
+    <img src="@Model.ImagemURL" alt="Imagem do Drink" style="max-width: 200px; max-height: 200px;" />
+</div>
+
+<div>
+    <h4>Nome: @Model.Nome</h4>
+    <p>Descrição: @Model.Descricao</p>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar para a Lista</a>
+</div>

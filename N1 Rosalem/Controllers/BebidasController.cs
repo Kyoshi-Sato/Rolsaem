@@ -63,7 +63,7 @@ namespace BarApp.Controllers
         [AdminOnly]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Criar([Bind("Nome,Preco,Estoque,Descricao")] Bebida bebida)
+        public IActionResult Criar([Bind("Nome,Preco,Estoque,Descricao, ImagemURL")] Bebida bebida)
         {
             if (ModelState.IsValid)
             {
@@ -94,7 +94,7 @@ namespace BarApp.Controllers
         [ValidateAntiForgeryToken]
         [AdminOnly]
 
-        public IActionResult Edit(int id, [Bind("Id,Nome,Preco,Estoque,Descricao")] Bebida bebida)
+        public IActionResult Edit(int id, [Bind("Id,Nome,Preco,Estoque,Descricao, ImagemURL")] Bebida bebida)
         {
             if (id != bebida.Id)
             {

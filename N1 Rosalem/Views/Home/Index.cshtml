@@ -4,26 +4,30 @@
     ViewData["Title"] = "Lista de Drinks";
 }
 
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    .grid-item {
+        border: 1px solid #ccc;
+        padding: 20px;
+    }
+</style>
+
 <h1>Lista de Drinks</h1>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Nome</th>
-            <th>Preço</th>
-            <th>Descrição</th>
-            <th>Estoque</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var drink in Model)
-        {
-            <tr>
-                <td>@drink.Nome</td>
-                <td>@drink.Preco</td>
-                <td>@drink.Descricao</td>
-                <td>@drink.Estoque</td>
-            </tr>
-        }
-    </tbody>
-</table>
+<div class="grid-container">
+    @foreach (var drink in Model)
+    {
+        <div class="grid-item">
+            <h2>@drink.Nome</h2>
+            <img src="@drink.ImagemURL" alt="Imagem do Drink" style="max-width: 200px; max-height: 200px;" />
+            <p><strong>Preço:</strong> @drink.Preco</p>
+            <p><strong>Descrição:</strong> @drink.Descricao</p>
+            <a asp-controller="Bebidas" asp-action="Details" asp-route-id="@drink.Id">Detalhes</a>
+        </div>
+    }
+</div>

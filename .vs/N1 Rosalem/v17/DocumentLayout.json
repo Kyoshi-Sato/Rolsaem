@@ -1,122 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\",
+  "WorkspaceRootPath": "D:\\Liquidd\\Rolsaem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\bebidas\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\bebidas\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|d:\\liquidd\\rolsaem\\n1 rosalem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\bebidas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\bebidas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|d:\\liquidd\\rolsaem\\n1 rosalem\\views\\bebidas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\bebidas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\models\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\models\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\controllers\\bebidascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\controllers\\bebidascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\models\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\models\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\bebidas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|d:\\liquidd\\rolsaem\\n1 rosalem\\views\\bebidas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\bebidas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\usuarios\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\usuarios\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\bebidas\\_bebidaspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|d:\\liquidd\\rolsaem\\n1 rosalem\\views\\bebidas\\_bebidaspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\bebidas\\_bebidaspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|d:\\liquidd\\rolsaem\\n1 rosalem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\models\\padraoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\models\\padraoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\n1 rosalem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\n1 rosalem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|c:\\users\\willi\\onedrive\\documentos\\github\\rolsaem\\n1 rosalem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Login\\Registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:N1 Rosalem\\Views\\Login\\Registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|d:\\liquidd\\rolsaem\\n1 rosalem\\models\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDEE9D8C-8CDF-4332-85E1-68D186786D3B}|N1 Rosalem\\N1 Rosalem.csproj|solutionrelative:n1 rosalem\\models\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,371 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "D:\\Liquidd\\Rolsaem\\N1 Rosalem\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "N1 Rosalem\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Liquidd\\Rolsaem\\N1 Rosalem\\wwwroot\\css\\site.css",
               "RelativeToolTip": "N1 Rosalem\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-20T23:06:38.526Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuarioViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Models\\UsuarioViewModel.cs",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Models\\UsuarioViewModel.cs",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Models\\UsuarioViewModel.cs",
-              "RelativeToolTip": "N1 Rosalem\\Models\\UsuarioViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:10:12.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Bebida.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Models\\Bebida.cs",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Models\\Bebida.cs",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Models\\Bebida.cs",
-              "RelativeToolTip": "N1 Rosalem\\Models\\Bebida.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:09:46.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Criar.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\Criar.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Bebidas\\Criar.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\Criar.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\Bebidas\\Criar.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T00:11:30.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Bebidas\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\Edit.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\Bebidas\\Edit.cshtml",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAYwCsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T00:11:45.314Z",
+              "WhenOpened": "2024-05-22T00:57:04.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BebidasController.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Controllers\\BebidasController.cs",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Controllers\\BebidasController.cs",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Controllers\\BebidasController.cs",
-              "RelativeToolTip": "N1 Rosalem\\Controllers\\BebidasController.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAAAEEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:46:31.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "N1 Rosalem\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAAwHsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:46:59.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAADMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T00:17:19.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T23:04:30.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\Index.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Bebidas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\Index.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\Bebidas\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T00:10:20.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADYAAAAAAAAAAAAwwD4AAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T23:04:35.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\appsettings.json",
-              "RelativeDocumentMoniker": "N1 Rosalem\\appsettings.json",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\appsettings.json",
-              "RelativeToolTip": "N1 Rosalem\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-20T00:52:05.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Criar.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Usuarios\\Criar.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Usuarios\\Criar.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Usuarios\\Criar.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\Usuarios\\Criar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T00:15:23.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Login\\Login.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Login\\Login.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Login\\Login.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\Login\\Login.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T01:19:45.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "_BebidasPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\_BebidasPartial.cshtml",
+              "DocumentMoniker": "D:\\Liquidd\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\_BebidasPartial.cshtml",
               "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Bebidas\\_BebidasPartial.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\_BebidasPartial.cshtml",
+              "ToolTip": "D:\\Liquidd\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\_BebidasPartial.cshtml",
               "RelativeToolTip": "N1 Rosalem\\Views\\Bebidas\\_BebidasPartial.cshtml",
-              "ViewState": "AQIAACwAAAAAAAAAAAApwDIAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T00:10:05.708Z",
+              "WhenOpened": "2024-05-22T00:49:21.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PadraoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Models\\PadraoViewModel.cs",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Models\\PadraoViewModel.cs",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Models\\PadraoViewModel.cs",
-              "RelativeToolTip": "N1 Rosalem\\Models\\PadraoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:09:30.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Program.cs",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Program.cs",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Program.cs",
-              "RelativeToolTip": "N1 Rosalem\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:56:34.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "N1 Rosalem.csproj",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\N1 Rosalem.csproj",
-              "RelativeDocumentMoniker": "N1 Rosalem\\N1 Rosalem.csproj",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\N1 Rosalem.csproj",
-              "RelativeToolTip": "N1 Rosalem\\N1 Rosalem.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-20T00:57:03.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "N1 Rosalem\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAgwDUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:33:31.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Startup.cs",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Startup.cs",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Startup.cs",
-              "RelativeToolTip": "N1 Rosalem\\Startup.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAgwD8AAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T01:08:44.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Models\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Models\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Models\\LoginViewModel.cs",
-              "RelativeToolTip": "N1 Rosalem\\Models\\LoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:47:12.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Login\\Register.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Login\\Register.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Login\\Register.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\Login\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAATAAAA",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Liquidd\\Rolsaem\\N1 Rosalem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Liquidd\\Rolsaem\\N1 Rosalem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "N1 Rosalem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T01:24:34.85Z"
+              "WhenOpened": "2024-05-22T00:49:03.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Registro.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Login\\Registro.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Login\\Registro.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Login\\Registro.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\Login\\Registro.cshtml",
-              "ViewState": "AQIAABcAAAAAAAAAAAAswCsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T00:49:04.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "N1 Rosalem\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:47:26.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Usuarios\\Edit.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Usuarios\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Usuarios\\Edit.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\Usuarios\\Edit.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAAAYwC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T00:16:10.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "N1 Rosalem\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:31:17.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\Shared\\Error.cshtml",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Liquidd\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\Index.cshtml",
+              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Bebidas\\Index.cshtml",
+              "ToolTip": "D:\\Liquidd\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\Index.cshtml",
+              "RelativeToolTip": "N1 Rosalem\\Views\\Bebidas\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T23:04:33.542Z"
+              "WhenOpened": "2024-05-22T00:48:58.459Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Liquidd\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\Details.cshtml",
+              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\Bebidas\\Details.cshtml",
+              "ToolTip": "D:\\Liquidd\\Rolsaem\\N1 Rosalem\\Views\\Bebidas\\Details.cshtml",
+              "RelativeToolTip": "N1 Rosalem\\Views\\Bebidas\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T23:04:35.117Z"
+              "WhenOpened": "2024-05-22T00:29:59.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "N1 Rosalem\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\willi\\OneDrive\\Documentos\\GitHub\\Rolsaem\\N1 Rosalem\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "N1 Rosalem\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T23:04:32.166Z"
+              "DocumentIndex": 5,
+              "Title": "Bebida.cs",
+              "DocumentMoniker": "D:\\Liquidd\\Rolsaem\\N1 Rosalem\\Models\\Bebida.cs",
+              "RelativeDocumentMoniker": "N1 Rosalem\\Models\\Bebida.cs",
+              "ToolTip": "D:\\Liquidd\\Rolsaem\\N1 Rosalem\\Models\\Bebida.cs",
+              "RelativeToolTip": "N1 Rosalem\\Models\\Bebida.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T00:27:42.884Z",
+              "EditorCaption": ""
             }
           ]
         }

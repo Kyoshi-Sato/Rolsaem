@@ -18,7 +18,10 @@ body {
 .container {
     flex: 1;
 }
-
+img {
+    border: 2px solid #9f8fbf; /* Roxo médio */
+    border-radius: 5px; /* Borda arredondada */
+}
 /* Cabeçalhos */
 h1, h2, h3, h4, h5, h6 {
     color: #c1c1d7; /* Roxo claro */

@@ -17,6 +17,6 @@ namespace BarApp.Models
         public string Descricao { get; set; }
 
         public int Estoque { get; set; }
-        public string ImagemPath { get; set; }
+        public string ImagemURL { get; set; }
     }
 }

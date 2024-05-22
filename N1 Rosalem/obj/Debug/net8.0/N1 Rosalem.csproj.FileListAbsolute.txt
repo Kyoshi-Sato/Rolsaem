@@ -149,3 +149,79 @@ C:\Users\willi\OneDrive\Documentos\GitHub\Rolsaem\N1 Rosalem\obj\Debug\net8.0\re
 C:\Users\willi\OneDrive\Documentos\GitHub\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.pdb
 C:\Users\willi\OneDrive\Documentos\GitHub\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.genruntimeconfig.cache
 C:\Users\willi\OneDrive\Documentos\GitHub\Rolsaem\N1 Rosalem\obj\Debug\net8.0\ref\N1 Rosalem.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.csproj.AssemblyReference.cache
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.AssemblyInfoInputs.cache
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.AssemblyInfo.cs
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.csproj.CoreCompileInputs.cache
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.MvcApplicationPartsAssemblyInfo.cache
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.RazorAssemblyInfo.cache
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.RazorAssemblyInfo.cs
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.sourcelink.json
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\refint\N1 Rosalem.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.pdb
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\appsettings.Development.json
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\appsettings.json
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\N1 Rosalem.staticwebassets.runtime.json
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\N1 Rosalem.exe
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\N1 Rosalem.deps.json
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\N1 Rosalem.runtimeconfig.json
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\N1 Rosalem.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\N1 Rosalem.pdb
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Azure.Core.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Azure.Identity.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Humanizer.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\System.CodeDom.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\staticwebassets.build.json
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\staticwebassets.development.json
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\staticwebassets\msbuild.N1 Rosalem.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\staticwebassets\msbuild.build.N1 Rosalem.props
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.N1 Rosalem.props
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.N1 Rosalem.props
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\scopedcss\bundle\N1 Rosalem.styles.css
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\scopedcss\projectbundle\N1 Rosalem.bundle.scp.css
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.csproj.Up2Date
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\N1 Rosalem.genruntimeconfig.cache
+D:\Liquidd\Rolsaem\N1 Rosalem\obj\Debug\net8.0\ref\N1 Rosalem.dll
