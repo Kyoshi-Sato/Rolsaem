@@ -1,20 +1,56 @@
 ﻿@model BarApp.Models.Bebida
 
-@{
-    ViewData["Title"] = "Details";
-}
-
-<h1>Detalhes do Drink</h1>
+<h2>Detalhes</h2>
 
 <div>
-    <img src="@Model.ImagemURL" alt="Imagem do Drink" style="max-width: 200px; max-height: 200px;" />
+    <h4>Bebida</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Nome
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            Preço
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+        <dt class="col-sm-2">
+            Descrição
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class="col-sm-2">
+            Estoque
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Estoque)
+        </dd>
+        <dt class="col-sm-2">
+            Imagem
+        </dt>
+        <dd class="col-sm-10">
+            <img src="@Model.ImagemURL" alt="@Model.Nome" />
+        </dd>
+        <dt class="col-sm-2">
+            Origem
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Origem.origem)
+        </dd>
+        <dt class="col-sm-2">
+            Receita
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Receita.receita)
+        </dd>
+    </dl>
 </div>
-
 <div>
-    <h4>Nome: @Model.Nome</h4>
-    <p>Descrição: @Model.Descricao</p>
-</div>
-
-<div>
-    <a asp-action="Index">Voltar para a Lista</a>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Voltar</a>
 </div>

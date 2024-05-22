@@ -22,7 +22,9 @@ namespace BarApp.Models
         public string ImagemURL { get; set; }
 
         public int OrigemId { get; set; }
+        public Origem Origem {get; set; }
         public int ReceitaId { get; set; }
+        public Receita Receita { get; set; }
 
       
     }

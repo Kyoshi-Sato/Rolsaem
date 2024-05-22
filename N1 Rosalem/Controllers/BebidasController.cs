@@ -5,16 +5,22 @@ using BarApp.Data;
 using N1_Rosalem.Filters;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using N1_Rosalem.Models;
+using N1_Rosalem.Services;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace BarApp.Controllers
 {
     public class BebidasController : Controller
     {
         private readonly BarContext _context;
+        private readonly MappingService _mappingService;
 
-        public BebidasController(BarContext context)
+        public BebidasController(BarContext context, MappingService mappingService)
         {
             _context = context;
+            _mappingService = mappingService;
+
 
         }
 
@@ -25,50 +31,44 @@ namespace BarApp.Controllers
             ViewBag.PriceSortParm = sortOrder == "Price" ? "price_desc" : "Price";
             ViewBag.CurrentFilter = searchString;
 
-            var bebida = from b in _context.Bebida
+            var bebidas = from b in _context.Bebida
                           select b;
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                bebida = bebida.Where(b => b.Nome.Contains(searchString));
+                bebidas = bebidas.Where(b => b.Nome.Contains(searchString));
             }
 
             switch (sortOrder)
             {
                 case "name_desc":
-                    bebida = bebida.OrderByDescending(b => b.Nome);
+                    bebidas = bebidas.OrderByDescending(b => b.Nome);
                     break;
                 case "Price":
-                    bebida = bebida.OrderBy(b => b.Preco);
+                    bebidas = bebidas.OrderBy(b => b.Preco);
                     break;
                 case "price_desc":
-                    bebida = bebida.OrderByDescending(b => b.Preco);
+                    bebidas = bebidas.OrderByDescending(b => b.Preco);
                     break;
                 default:
-                    bebida = bebida.OrderBy(b => b.Nome);
+                    bebidas = bebidas.OrderBy(b => b.Nome);
                     break;
             }
 
-            ViewData["BebidasFiltradas"] = bebida.ToList(); // Definir dados filtrados no ViewData
-            
-            return View();
+            var bebidaViewModels = bebidas.Select(b => _mappingService.MapToBebidaViewModel(b)).ToList();
+            return View(bebidaViewModels);
         }
 
-        [AdminOnly]
 
         // GET: Bebidas/Create
+        [AdminOnly]
         public IActionResult Criar()
         {
-           
-            var origens = _context.Origem.ToList();
-            var receitas = _context.Receita.ToList();
-
-            ViewBag.Origens = new SelectList(_context.Origem.ToList(), "id", "origem");
-            ViewBag.Receitas = new SelectList(_context.Receita.ToList(), "id", "receita");
-
-
+            ViewBag.Origens = new SelectList(_context.Origem.ToList(), "Id", "origem");
+            ViewBag.Receitas = new SelectList(_context.Receita.ToList(), "Id", "receita");
             return View();
         }
+
 
         // POST: Bebidas/Create
         [AdminOnly]
@@ -81,37 +81,37 @@ namespace BarApp.Controllers
                 _context.Add(bebida);
                 _context.SaveChanges();
                 var bebidas = _context.Bebida.ToList();
-                return PartialView("_BebidasPartial", bebidas);
+                var bebidaViewModels = bebidas.Select(b => _mappingService.MapToBebidaViewModel(b)).ToList();
+                return PartialView("_BebidasPartial", bebidaViewModels);
             }
 
-            return BadRequest(ModelState);
+            ViewBag.Origens = new SelectList(_context.Origem.ToList(), "Id", "origem", bebida.OrigemId);
+            ViewBag.Receitas = new SelectList(_context.Receita.ToList(), "Id", "receita", bebida.ReceitaId);
+            return View(bebida);
         }
+
 
         // GET: Bebidas/Edit/5
         [AdminOnly]
-
         public IActionResult Edit(int id)
         {
-            var origens = _context.Origem.ToList();
-            var receitas = _context.Receita.ToList();
-
-            ViewBag.Origens = new SelectList(_context.Origem.ToList(), "id", "origem");
-            ViewBag.Receitas = new SelectList(_context.Receita.ToList(), "id", "receita");
-
             var bebida = _context.Bebida.Find(id);
             if (bebida == null)
             {
                 return NotFound();
             }
+
+            ViewBag.Origens = new SelectList(_context.Origem.ToList(), "Id", "origem", bebida.OrigemId);
+            ViewBag.Receitas = new SelectList(_context.Receita.ToList(), "Id", "receita", bebida.ReceitaId);
             return View(bebida);
         }
+
 
         // POST: Bebidas/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         [AdminOnly]
-
-        public IActionResult Edit(int id, [Bind("Nome,Preco,Estoque,Descricao,ImagemURL,OrigemId,ReceitaId")] Bebida bebida)
+        public IActionResult Edit(int id, [Bind("Id,Nome,Preco,Estoque,Descricao,ImagemURL,OrigemId,ReceitaId")] Bebida bebida)
         {
             if (id != bebida.Id)
             {
@@ -120,26 +120,52 @@ namespace BarApp.Controllers
 
             if (ModelState.IsValid)
             {
-                _context.Update(bebida);
-                _context.SaveChanges();
+                try
+                {
+                    _context.Update(bebida);
+                    _context.SaveChanges();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!_context.Bebida.Any(e => e.Id == bebida.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
             }
-            return View("Index");
+
+            ViewBag.Origens = new SelectList(_context.Origem.ToList(), "Id", "origem", bebida.OrigemId);
+            ViewBag.Receitas = new SelectList(_context.Receita.ToList(), "Id", "receita", bebida.ReceitaId);
+            return View(bebida);
         }
+
 
         // GET: Bebidas/Details/5
         public IActionResult Details(int id)
         {
-            var bebida = _context.Bebida.Find(id);
+            var bebida = _context.Bebida
+                .Include(b => b.Origem)
+                .Include(b => b.Receita)
+                .FirstOrDefault(m => m.Id == id);
+
             if (bebida == null)
             {
                 return NotFound();
             }
-            return View(bebida);
+
+            var bebidaViewModel = _mappingService.MapToBebidaViewModel(bebida);
+            return View(bebidaViewModel);
         }
+
+
 
         // POST: Bebidas/Delete/5
         [AdminOnly]
-
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
@@ -152,6 +178,7 @@ namespace BarApp.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
+
         public IActionResult BebidasPartial(string sortOrder, string searchString)
         {
             // Lógica para filtrar e classificar as bebidas

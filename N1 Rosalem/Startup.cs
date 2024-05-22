@@ -7,11 +7,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using N1_Rosalem.Models;
 using BarApp.Data;
+using N1_Rosalem.Services;
 
 namespace N1_Rosalem
 {
     public class Startup
     {
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -24,6 +26,8 @@ namespace N1_Rosalem
             // Configurar a conexão ao banco de dados
             services.AddDbContext<BarContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<MappingService>();
 
             services.AddControllersWithViews();
 
