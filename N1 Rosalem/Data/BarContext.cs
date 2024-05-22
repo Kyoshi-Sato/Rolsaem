@@ -8,7 +8,10 @@ namespace BarApp.Data
     {
         public BarContext(DbContextOptions<BarContext> options) : base(options) { }
 
-        public DbSet<Bebida> Bebidas { get; set; }
-        public DbSet<UsuarioViewModel> Usuarios { get; set; } // Adicionando a entidade UsuarioViewModel
+        public DbSet<Bebida> Bebida { get; set; }
+        public DbSet<Origem> Origem { get; set; }
+        public DbSet<Receita> Receita { get; set; }
+
+        public DbSet<UsuarioViewModel> Usuarios { get; set; } // Adicionando a entidade UsuarioViewModel    
     }
 }

@@ -18,18 +18,18 @@ namespace N1_Rosalem.Controllers
         public HomeController(BarContext context)
         {
             _context = context;
-            //_logger = logger;
+
         }
 
         // GET: Bebidas
         public IActionResult Index()
         {
-            return View(_context.Bebidas.ToList());
+            return View(_context.Bebida.ToList());
         }
 
         public IActionResult SortDrinks(string sortBy)
         {
-            var bebidas = _context.Bebidas.AsQueryable();
+            var bebidas = _context.Bebida.AsQueryable();
 
             switch (sortBy)
             {
@@ -55,7 +55,7 @@ namespace N1_Rosalem.Controllers
                 return NotFound();
             }
 
-            var bebida = await _context.Bebidas.FirstOrDefaultAsync(m => m.Id == id);
+            var bebida = await _context.Bebida.FirstOrDefaultAsync(m => m.Id == id);
             if (bebida == null)
             {
                 return NotFound();
@@ -100,7 +100,7 @@ namespace N1_Rosalem.Controllers
                 return NotFound();
             }
 
-            var bebida = _context.Bebidas.Find(id);
+            var bebida = _context.Bebida.Find(id);
             if (bebida == null)
             {
                 return NotFound();
@@ -143,7 +143,7 @@ namespace N1_Rosalem.Controllers
 
         private bool BebidaExists(int id)
         {
-            return _context.Bebidas.Any(e => e.Id == id);
+            return _context.Bebida.Any(e => e.Id == id);
         }
 
         // GET: Bebidas/Delete/5
@@ -154,7 +154,7 @@ namespace N1_Rosalem.Controllers
                 return NotFound();
             }
 
-            var bebida = await _context.Bebidas.FirstOrDefaultAsync(m => m.Id == id);
+            var bebida = await _context.Bebida.FirstOrDefaultAsync(m => m.Id == id);
             if (bebida == null)
             {
                 return NotFound();
@@ -168,15 +168,15 @@ namespace N1_Rosalem.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var bebida = await _context.Bebidas.FindAsync(id);
-            _context.Bebidas.Remove(bebida);
+            var bebida = await _context.Bebida.FindAsync(id);
+            _context.Bebida.Remove(bebida);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool BebidaExiste(int id)
         {
-            return _context.Bebidas.Any(e => e.Id == id);
+            return _context.Bebida.Any(e => e.Id == id);
         }
     }
 }

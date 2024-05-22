@@ -3,6 +3,8 @@ using BarApp.Models;
 using System.Linq;
 using BarApp.Data;
 using N1_Rosalem.Filters;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using N1_Rosalem.Models;
 
 namespace BarApp.Controllers
 {
@@ -13,6 +15,7 @@ namespace BarApp.Controllers
         public BebidasController(BarContext context)
         {
             _context = context;
+
         }
 
         // GET: Bebidas
@@ -22,32 +25,32 @@ namespace BarApp.Controllers
             ViewBag.PriceSortParm = sortOrder == "Price" ? "price_desc" : "Price";
             ViewBag.CurrentFilter = searchString;
 
-            var bebidas = from b in _context.Bebidas
+            var bebida = from b in _context.Bebida
                           select b;
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                bebidas = bebidas.Where(b => b.Nome.Contains(searchString));
+                bebida = bebida.Where(b => b.Nome.Contains(searchString));
             }
 
             switch (sortOrder)
             {
                 case "name_desc":
-                    bebidas = bebidas.OrderByDescending(b => b.Nome);
+                    bebida = bebida.OrderByDescending(b => b.Nome);
                     break;
                 case "Price":
-                    bebidas = bebidas.OrderBy(b => b.Preco);
+                    bebida = bebida.OrderBy(b => b.Preco);
                     break;
                 case "price_desc":
-                    bebidas = bebidas.OrderByDescending(b => b.Preco);
+                    bebida = bebida.OrderByDescending(b => b.Preco);
                     break;
                 default:
-                    bebidas = bebidas.OrderBy(b => b.Nome);
+                    bebida = bebida.OrderBy(b => b.Nome);
                     break;
             }
 
-            ViewData["BebidasFiltradas"] = bebidas.ToList(); // Definir dados filtrados no ViewData
-
+            ViewData["BebidasFiltradas"] = bebida.ToList(); // Definir dados filtrados no ViewData
+            
             return View();
         }
 
@@ -56,6 +59,14 @@ namespace BarApp.Controllers
         // GET: Bebidas/Create
         public IActionResult Criar()
         {
+           
+            var origens = _context.Origem.ToList();
+            var receitas = _context.Receita.ToList();
+
+            ViewBag.Origens = new SelectList(_context.Origem.ToList(), "id", "origem");
+            ViewBag.Receitas = new SelectList(_context.Receita.ToList(), "id", "receita");
+
+
             return View();
         }
 
@@ -63,13 +74,13 @@ namespace BarApp.Controllers
         [AdminOnly]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Criar([Bind("Nome,Preco,Estoque,Descricao, ImagemURL")] Bebida bebida)
+        public IActionResult Criar([Bind("Nome,Preco,Estoque,Descricao,ImagemURL,OrigemId,ReceitaId")] Bebida bebida)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(bebida);
                 _context.SaveChanges();
-                var bebidas = _context.Bebidas.ToList();
+                var bebidas = _context.Bebida.ToList();
                 return PartialView("_BebidasPartial", bebidas);
             }
 
@@ -81,7 +92,7 @@ namespace BarApp.Controllers
 
         public IActionResult Edit(int id)
         {
-            var bebida = _context.Bebidas.Find(id);
+            var bebida = _context.Bebida.Find(id);
             if (bebida == null)
             {
                 return NotFound();
@@ -113,7 +124,7 @@ namespace BarApp.Controllers
         // GET: Bebidas/Details/5
         public IActionResult Details(int id)
         {
-            var bebida = _context.Bebidas.Find(id);
+            var bebida = _context.Bebida.Find(id);
             if (bebida == null)
             {
                 return NotFound();
@@ -128,10 +139,10 @@ namespace BarApp.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {
-            var bebida = _context.Bebidas.Find(id);
+            var bebida = _context.Bebida.Find(id);
             if (bebida != null)
             {
-                _context.Bebidas.Remove(bebida);
+                _context.Bebida.Remove(bebida);
                 _context.SaveChanges();
             }
             return RedirectToAction(nameof(Index));
@@ -139,7 +150,7 @@ namespace BarApp.Controllers
         public IActionResult BebidasPartial(string sortOrder, string searchString)
         {
             // Lógica para filtrar e classificar as bebidas
-            var bebidasFiltradas = from b in _context.Bebidas
+            var bebidasFiltradas = from b in _context.Bebida
                                    select b;
 
             if (!String.IsNullOrEmpty(searchString))

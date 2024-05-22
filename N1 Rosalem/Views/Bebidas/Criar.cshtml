@@ -2,11 +2,10 @@
 
 @{
     ViewData["Title"] = "Criar Bebida";
+
 }
 
 <h1>Criar Bebida</h1>
-
-
 
 <div class="row">
     <div class="col-md-4">
@@ -38,14 +37,41 @@
             </div>
 
             <div class="form-group">
+                <label asp-for="OrigemId" class="control-label"></label>
+                <select asp-for="OrigemId" class="form-control">
+                    <option value="">Selecione uma origem</option>
+                    @foreach (var origem in ViewBag.Origens)
+                    {
+                        <option value="@origem.Value">@origem.Text</option>
+                    }
+                </select>
+                <span asp-validation-for="OrigemId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ReceitaId" class="control-label"></label>
+                <select asp-for="ReceitaId" class="form-control">
+                    <option value="">Selecione uma Receita</option>
+                    @foreach (var receita in ViewBag.Receitas)
+                    {
+                        <option value="@receita.Value">@receita.Text</option>
+                    }
+                </select>
+                <span asp-validation-for="ReceitaId" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-group">
                 <label asp-for="ImagemURL" class="control-label"></label>
                 <input asp-for="ImagemURL" class="form-control" />
                 <span asp-validation-for="ImagemURL" class="text-danger"></span>
             </div>
-          
+
             <div class="form-group">
                 <button type="button" id="createBebidaButton" class="btn btn-primary">Salvar</button>
             </div>
+        
         </form>
     </div>
 </div>
@@ -57,7 +83,7 @@
             $('#createBebidaButton').click(function () {
                 var formData = $('#criar').serialize();
                 $.ajax({
-                    url: '@Url.Action("Criar", "Bebidas")', 
+                    url: '/Bebidas/Criar',
                     type: 'POST',
                     data: formData,
                     success: function (result) {
@@ -67,9 +93,11 @@
                     },
                     error: function (xhr, status, error) {
                         alert('Ocorreu um erro ao criar a bebida: ' + error);
+                        console.log(xhr.responseText);
                     }
                 });
             });
         });
     </script>
+
 }

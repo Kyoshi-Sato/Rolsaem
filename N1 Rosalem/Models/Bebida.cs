@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using N1_Rosalem.Models;
+using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 
 namespace BarApp.Models
 {
@@ -18,5 +20,10 @@ namespace BarApp.Models
 
         public int Estoque { get; set; }
         public string ImagemURL { get; set; }
+
+        public int OrigemId { get; set; }
+        public int ReceitaId { get; set; }
+
+      
     }
 }
