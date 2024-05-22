@@ -92,6 +92,12 @@ namespace BarApp.Controllers
 
         public IActionResult Edit(int id)
         {
+            var origens = _context.Origem.ToList();
+            var receitas = _context.Receita.ToList();
+
+            ViewBag.Origens = new SelectList(_context.Origem.ToList(), "id", "origem");
+            ViewBag.Receitas = new SelectList(_context.Receita.ToList(), "id", "receita");
+
             var bebida = _context.Bebida.Find(id);
             if (bebida == null)
             {
@@ -105,7 +111,7 @@ namespace BarApp.Controllers
         [ValidateAntiForgeryToken]
         [AdminOnly]
 
-        public IActionResult Edit(int id, [Bind("Id,Nome,Preco,Estoque,Descricao, ImagemURL")] Bebida bebida)
+        public IActionResult Edit(int id, [Bind("Nome,Preco,Estoque,Descricao,ImagemURL,OrigemId,ReceitaId")] Bebida bebida)
         {
             if (id != bebida.Id)
             {
@@ -116,9 +122,8 @@ namespace BarApp.Controllers
             {
                 _context.Update(bebida);
                 _context.SaveChanges();
-                return RedirectToAction(nameof(Index));
             }
-            return View(bebida);
+            return View("Index");
         }
 
         // GET: Bebidas/Details/5
