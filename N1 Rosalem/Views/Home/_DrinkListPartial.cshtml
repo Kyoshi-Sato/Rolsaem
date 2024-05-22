@@ -1,0 +1,12 @@
+﻿@model IEnumerable<BarApp.Models.Bebida>
+
+@foreach (var drink in Model)
+{
+    <div class="grid-item">
+        <h2>@drink.Nome</h2>
+        <img src="@drink.ImagemURL" alt="Imagem do Drink" style="max-width: 200px; max-height: 200px;" />
+        <p><strong>Preço:</strong> @drink.Preco</p>
+        <p><strong>Descrição:</strong> @drink.Descricao</p>
+        <a asp-controller="Bebidas" asp-action="Details" asp-route-id="@drink.Id">Detalhes</a>
+    </div>
+}

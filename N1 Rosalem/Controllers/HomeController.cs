@@ -27,6 +27,26 @@ namespace N1_Rosalem.Controllers
             return View(_context.Bebidas.ToList());
         }
 
+        public IActionResult SortDrinks(string sortBy)
+        {
+            var bebidas = _context.Bebidas.AsQueryable();
+
+            switch (sortBy)
+            {
+                case "Nome":
+                    bebidas = bebidas.OrderBy(b => b.Nome);
+                    break;
+                case "Preco":
+                    bebidas = bebidas.OrderBy(b => b.Preco);
+                    break;
+                default:
+                    bebidas = bebidas.OrderBy(b => b.Nome);
+                    break;
+            }
+
+            return PartialView("_DrinkListPartial", bebidas.ToList());
+        }
+
         // GET: Bebidas/Details/5
         public async Task<IActionResult> Details(int? id)
         {

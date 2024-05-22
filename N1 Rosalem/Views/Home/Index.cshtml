@@ -19,15 +19,39 @@
 
 <h1>Lista de Drinks</h1>
 
-<div class="grid-container">
-    @foreach (var drink in Model)
-    {
-        <div class="grid-item">
-            <h2>@drink.Nome</h2>
-            <img src="@drink.ImagemURL" alt="Imagem do Drink" style="max-width: 200px; max-height: 200px;" />
-            <p><strong>Preço:</strong> @drink.Preco</p>
-            <p><strong>Descrição:</strong> @drink.Descricao</p>
-            <a asp-controller="Bebidas" asp-action="Details" asp-route-id="@drink.Id">Detalhes</a>
-        </div>
-    }
+<div>
+    <button id="sortName">Ordenar por Nome</button>
+    <button id="sortPrice">Ordenar por Preço</button>
 </div>
+
+<div id="drinks-container" class="grid-container">
+    @Html.Partial("_DrinkListPartial", Model)
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#sortName').click(function () {
+                sortDrinks('Nome');
+            });
+            $('#sortPrice').click(function () {
+                sortDrinks('Preco');
+            });
+        });
+
+        function sortDrinks(sortBy) {
+            $.ajax({
+                url: '@Url.Action("SortDrinks")',
+                type: 'GET',
+                data: { sortBy: sortBy },
+                success: function (result) {
+                    $('#drinks-container').html(result);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Erro ao carregar os dados: ', error);
+                }
+            });
+        }
+    </script>
+}
